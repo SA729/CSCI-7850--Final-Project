@@ -9,4 +9,4 @@ used to solve and simulate the tumor-immune dynamics. These methods rely on the 
 
 In this work, a fully connected neural network(FCNN) with  3 hidden layers and 32 nodes per each hidden layer, with the
 activation function of tanh were used for each dependent variable( tumor cells and effector immune cells). One input unit were used to represent the independent
-variable time(t). Two fully connected neural networks were used to represent two dependent variables, tumor cells and effector cells in the model.  The hyperparameters of this FCNN are optimized using Adam, with a learning rate of 0.003 and training rounds of 3000. We made use of NeuroDiffEqis python library to solve the tumor -immune model in this project. 
+variable time(t). Two fully connected neural networks were used to represent two dependent variables, tumor cells and effector cells in the model.  The hyperparameters of this FCNN are optimized using Adam, with a learning rate of 0.003 and training rounds of 3000. We made use of NeuroDiffEq python library to solve the tumor -immune model in this project. 
